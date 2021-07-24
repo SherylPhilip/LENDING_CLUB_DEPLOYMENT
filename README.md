@@ -31,19 +31,32 @@ Moreover, some of the features in this dataset are only relevant after loans are
 ## DATA SEGMENTATION AND DATA CLEANING
 
 •	In this project, we  have p prepared  a processed  dataset by   and  collected   the   clear-cut data available on https://www.kaggle.com/wordsforthewise/lending-club.
+
 •	Using pandas data frame, we have calculated the percent of Non-null values in each columns.
+
 •	Then removed the columns that had large number of Null value or were irrelevant to the analysis.
+
 •	Then separated the columns with numerical values to those that have categorical values.
+
 •	By using the fillna we have filled all the remaining numerical value columns with empty values with mean of the columns.
+
 •	By using the fillna we have filled all the remaining Categorical value columns with empty values with mode of the columns.
+
 •	After handling the null values, we deal with skewness of the data.
+
 •	After checking the skewness, all the columns that are highly skewed are dropped using drop function.
+
 •	Then we checked for outlier tendency using kurtosis. Then we capped some outlier.
+
 •	Outliner were successfully handled. And after that we created the target variable that is Loan Status in this case.
+
 •	Loan status had too many unique values so instead we created a new variable taking the default as 1 and rest 0.
+
 •	We converted date object columns to integer years or months so that we can easily encode other categorical features
 •	without exhausting our resources.
+
 •	For filling the dates, we used the most used dates in that feature.
+
 •	Thus our data cleaning process was cleared.
 
 ***
