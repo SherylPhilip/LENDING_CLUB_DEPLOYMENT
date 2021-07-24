@@ -415,9 +415,11 @@ Create requirements.txt file in the root directory of the project by pip freeze 
  ![Declare app dependencies](https://github.com/BHAVI2803/LENDING_CLUB_DEPLOYMENT/blob/9c761797f49b7bbf1531dff07f0cdd4ac5ece327/Images/Declare%20app%20dependencies.png)
  
 
-### 4.	Create Procfile
+### 4.	Create Procfile and Requirements.txt
 
-The Procfile is always a plain text file that is named Procfile without a file extension in the root directory of the project, to explicitly declare what command should be executed to start your app.
+The Procfile is always a plain text file that is named Procfile without a file extension in the root directory of the project, to explicitly declare what command should be executed to start your app. 
+
+Requirements.txt, which records an environment's current package.
 
 F:\python-projects\flask-projects\flask-app\Procfile
 
