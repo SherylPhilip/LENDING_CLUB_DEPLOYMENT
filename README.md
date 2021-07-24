@@ -66,12 +66,14 @@ Moreover, some of the features in this dataset are only relevant after loans are
 ### Loan Status vs Loan Amount:
 
 •	It can be observed that Fully Paid and Charged-off are having higher amount of loans than that of Default.
+
 •	Median: It can be further inferred that the Median lies on the lower side of the Interquartile  Range for both Fully-Paid and Default categories, while the median in somewhat in the middle of the range for the Charged-off.
 
 ![Loan Status vs Loan Amount](https://github.com/BHAVI2803/LENDING_CLUB_DEPLOYMENT/blob/287246bbd31c8a37ecbd9f306dc9104ab67029d0/Images/0d60b4e2-bb2f-464b-b41d-79687920d6ce.jpg)
 
 ### Average Load Amount vs Grade:
 •	The graph draws a pattern between the loan amount and grade. As the Grade goes down from A to G, the Average Loan Amount linearly increases.
+
 •	Additionally, it can be observed that the average loan amount of B grade loans is the least of all  grades.
 
 ![Average Load Amount vs Grade](https://github.com/BHAVI2803/LENDING_CLUB_DEPLOYMENT/blob/287246bbd31c8a37ecbd9f306dc9104ab67029d0/Images/33687470-88b1-44bf-b182-373feea629c7.jpg)
@@ -79,6 +81,7 @@ Moreover, some of the features in this dataset are only relevant after loans are
 ### Loan Status diversification:
 
 •	The count of fully paid is more than the charged off.
+
 •	The dataset is slightly imbalanced and thus was balanced before the model training phase.
 
 ![Loan Status diversification](https://github.com/BHAVI2803/LENDING_CLUB_DEPLOYMENT/blob/287246bbd31c8a37ecbd9f306dc9104ab67029d0/Images/0bc7e011-43d7-4b43-8e02-54f0af7bb350.jpg)
@@ -86,6 +89,7 @@ Moreover, some of the features in this dataset are only relevant after loans are
 ### Box Plot for Loan Amount with Grades:
 
 •	It can be inferred from the scenario that larger loans generally appear to be given at a lower grade, with the median loan amount for a grade G loan being almost 5000  higher  than  that    of    a grade A, B, or C loan.
+
 •	Grade B, however, remains at the lowest in the range.
 
 ![Box Plot for Loan Amount with Grades](https://github.com/BHAVI2803/LENDING_CLUB_DEPLOYMENT/blob/287246bbd31c8a37ecbd9f306dc9104ab67029d0/Images/00b0ec54-7046-4af9-881a-033ce5de6ef6.jpg)
@@ -93,6 +97,7 @@ Moreover, some of the features in this dataset are only relevant after loans are
 ### Bar Graph for Loan Amount vs the Loan Status:
 
   •	Higher loan amounts are Verified more often. We already know that larger loans are less in number, but see a higher charge off rate.
+  
   •	It's not the verified status per se, it's the fact that higher loan amounts are riskier and are also verified more often by Lending Club.
 
  ![Bar Graph for Loan Amount vs the Loan Status](https://github.com/BHAVI2803/LENDING_CLUB_DEPLOYMENT/blob/287246bbd31c8a37ecbd9f306dc9104ab67029d0/Images/6d3cd005-4108-4cda-b4fd-125f2d27e858.jpg)
