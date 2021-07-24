@@ -421,14 +421,17 @@ The first app refers to the filename app.py. The second app refers the instance 
 ### 5.	Initialize git
 
 ![Initialize git](https://github.com/BHAVI2803/LENDING_CLUB_DEPLOYMENT/blob/8bef92b62ec598623c18e2f2321c84984b1b72ea/Images/Initialize%20git.png)
+
  
 ### 6.	Create Heroku app, add files to GIT and deploy
 
+
 ### 7.	Browse deployed URL
+   Github Repository Link
             https://lendingclubloanriskpredict-api.herokuapp.com/
+            
 
 ### 8.	Download full project
-
-## Project Link 
+   Project Link 
         https://github.com/BHAVI2803/LENDING_CLUB_DEPLOYMENT
 
