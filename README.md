@@ -245,7 +245,7 @@ Table 1. Accuracy For Different Models:
 
 ## Conclusion :
 
-Based on the results and the summary tables, Regularized Logistic Regression was selected for predictions ahead.
+Based on the results and the summary tables, Random Forest was selected for predictions ahead.
 
 ***
 
