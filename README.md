@@ -1,6 +1,5 @@
 # LENDING_CLUB_DEPLOYMENT
 
-***
 
 # Capstone Project- Lending Club
 
@@ -21,13 +20,12 @@ In the last few years, applying for different types of loans through online peer
 2. Second, need to apply explanatory data analysis (EDA) to investigate the features.
 3. Preprocessed data on LendingClub loans labeled on whether or not the borrower defaulted (charged-off) to develop a model and predict whether or not a borrower will pay back their loan. This way in the future when we get a new potential customer who assigned with higher interest loan, we can assess whether or not they are likely to pay back the loan.
 
-## Dataset
+### Dataset
 
 We used LendigClub Dataset possessing almost all features including FICO scores. This dataset contains more than several millions data and because, here, We only use a normal laptop to analyze and model this dataset, thus, We only selected the loans issued in 2018 (almost 0.5 million data) to reduce the processing time.
 
 Moreover, some of the features in this dataset are only relevant after loans are issued and thus, not available at the moment of investing. For this reason, We used features list from here that are available and visible to investors before issuing a loan. To match this feature list to the main dataset, We did some simple and primary cleaning, whitespace removing, and spell corrections using dropping and “regular expression” technique. Also, it requires to check the unmatched features to see if some of them could be matched manually.
 
-***
 
 ## DATA SEGMENTATION AND DATA CLEANING
 
@@ -94,8 +92,8 @@ Moreover, some of the features in this dataset are only relevant after loans are
 
 •	The  graph        shows   Interest  Rate    on  the  Y axis and term (number of months) on the x axis.
 •	On X axis-
-    0: 36 months
-    1: 60 months
+0: 36 months
+1: 60 months
 •	Interest    rates  are  based  on  term.  Larger amounts  were  seen  to  be  given  for  higher term. The rate  of interest  associated with them is also high.
  
  ![Box Plot Grouped By Terms](https://github.com/BHAVI2803/LENDING_CLUB_DEPLOYMENT/blob/287246bbd31c8a37ecbd9f306dc9104ab67029d0/Images/0190fbb2-416d-47e8-95b8-4dcc4e17edad.jpg )
@@ -105,8 +103,8 @@ Moreover, some of the features in this dataset are only relevant after loans are
 
 •	The graph is made between loan amount Grades from A to G, for two terms (36 months and 60 months).
 •	On X axis-
-  0 denotes 36 months
-  1 denotes 60 months
+0 denotes 36 months
+1 denotes 60 months
 •	Higher loan amount are associated with grade for longer terms.
 •	It can also be observed that marginally equal amount of loan was taken by all the Grades range for same terms.
 
@@ -212,8 +210,7 @@ o	Metric= ‘euclidean’;
 ### Conclusion :
 
 Based on the results and the summary tables, Regularized Logistic Regression was selected for predictions ahead.
-
-
+***
 
 Now, we use flask framework to create a web app for our model.
 
@@ -231,16 +228,21 @@ Now, we load pickle files for Indivisual, Joint and sub grade model.
 ### Step-3
 
 After loading all 3 files, we start with creating our web app.
-we have 4 pages in web app, with help of '@app.route()' 
----
+--
+We have created web pages using _html_.
+We have joined 4 html pages into our web app using flask **'app.route()'**
+Styling of web page was done using **CSS**.
+
+Now, our webpage is ready integrate with flask app.
+--
 1. Main Page
-    Our home page is pretty simple and plain.
+    Our home page is pretty simple and has an option to go for loan prediction.
 2. Loand Prediction
-    This page gives 2 option (Individual/Joint) to predict the loan for.
+    This page gives 2 options _(Individual/Joint)_ to predict the loan for.
 3. Individual Application
-    Individual page asks for various inputs from the user to predict
+    This page asks for various inputs from the user to predict loan approval for Individual Application.
 4. Joint Application
-    Joint page asks for various inputs from the user to predict.
+    This page asks for various inputs from the user to predict loan approval for Joint Application.
 
 ***
 ### Step-4
@@ -263,8 +265,8 @@ Following is the list for inputs we ask from the user-
 * Home Ownership
 
 After getting all the inputs, we do feature engoneering in next step
-***
 
+***
 ### Step-5
 
 **Feature Engineering**
