@@ -267,17 +267,17 @@ Now, our webpage is ready integrate with flask app.
     
 2. Loand Prediction:
 
-    - This page two buttons at the center to choose the type of loan you are interested in for prediction.
-      - Joint Loan or
-      - Individual Loan 
+        - This page two buttons at the center to choose the type of loan you are interested in for prediction.
+          - Joint Loan or
+          - Individual Loan 
     
 3. Individual Application:
  
-    - Individual Application page consist of a form that asks for various inputs from the user concerning several features of the Individual loan one need to be predicted.
+        - Individual Application page consist of a form that asks for various inputs from the user concerning several features of the Individual loan one need to be predicted.
    
 4. Joint Application:
 
-    - Join Application page consist of a form that asks for various inputs from the user concerning several features of the Joint loan one need to be predicted.
+        - Join Application page consist of a form that asks for various inputs from the user concerning several features of the Joint loan one need to be predicted.
 
 ***
 ### Step-4
