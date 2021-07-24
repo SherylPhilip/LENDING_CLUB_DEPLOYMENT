@@ -259,15 +259,25 @@ We have joined 4 html pages into our web app using flask **'app.route()'**
 Styling of web page was done using **CSS**.
 
 Now, our webpage is ready integrate with flask app.
---
-1. Main Page
-    Our home page is pretty simple and has an option to go for loan prediction.
-2. Loand Prediction
-    This page gives 2 options _(Individual/Joint)_ to predict the loan for.
-3. Individual Application
-    This page asks for various inputs from the user to predict loan approval for Individual Application.
-4. Joint Application
-    This page asks for various inputs from the user to predict loan approval for Joint Application.
+--1. Main Page:
+
+    - Our home page is pretty simple. 
+    - It has 4 buttons at the top-right corner to move to different pages of the app mentioned below. 
+    - It has two more buttons at the center to choose the type of loan you are interested in for prediction.
+    
+2. Loand Prediction:
+
+    - This page two buttons at the center to choose the type of loan you are interested in for prediction.
+      - Joint Loan or
+      - Individual Loan 
+    
+3. Individual Application:
+ 
+    - Individual Application page consist of a form that asks for various inputs from the user concerning several features of the Individual loan one need to be predicted.
+   
+4. Joint Application:
+
+    - Join Application page consist of a form that asks for various inputs from the user concerning several features of the Joint loan one need to be predicted.
 
 ***
 ### Step-4
