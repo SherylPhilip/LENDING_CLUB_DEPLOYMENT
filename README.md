@@ -216,7 +216,7 @@ Based on the results and the summary tables, Regularized Logistic Regression was
 
 ***
 
-Now, we use flask framework to create a web app for our model.
+## Now, we use flask framework to create a web app for our model.
 
 we have created python file as "app.py" in our root folder. We will start working on web app now,
 
