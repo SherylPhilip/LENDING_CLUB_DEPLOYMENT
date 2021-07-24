@@ -30,7 +30,7 @@ Moreover, some of the features in this dataset are only relevant after loans are
 
 ## DATA SEGMENTATION AND DATA CLEANING
 
-•	In this project, we  have p prepared  a processed  dataset by   and  collected   the   clear-cut data available on https://www.kaggle.com/wordsforthewise/lending-club.
+•	In this project, we  have prepared  a processed  dataset by   and  collected   the   clear-cut data available on https://www.kaggle.com/wordsforthewise/lending-club.
 
 •	Using pandas data frame, we have calculated the percent of Non-null values in each columns.
 
