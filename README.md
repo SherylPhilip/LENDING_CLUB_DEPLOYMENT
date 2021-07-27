@@ -314,7 +314,7 @@ Following is the list for inputs we ask from the user-
 * Revol Util
 * Home Ownership
 
-After getting all the inputs, we do feature engoneering in next step
+After getting all the inputs, we do feature engineering in next step
 
 ***
 ### Step-5
