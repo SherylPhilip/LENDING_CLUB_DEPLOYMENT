@@ -368,6 +368,7 @@ Below you will find the requirements and prerequisites for the deployment.
 
 How to make account in Heroku:
 Step 1: To have an account in Heroku you have to login to https://signup.heroku.com/ 
+
 Step 2: You must fill the mandatory details, as shown in the below screenshot.
 
 ![Form for Heroku signup](https://github.com/BHAVI2803/LENDING_CLUB_DEPLOYMENT/blob/287246bbd31c8a37ecbd9f306dc9104ab67029d0/Images/86bcbf27-4b64-4259-8cf6-52078bbc203a.jpg)
